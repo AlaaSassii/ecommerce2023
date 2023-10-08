@@ -1,0 +1,21 @@
+
+@mixin centerElementFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flexStart{
+    display: flex;
+    align-items: flex-start
+}
+@mixin flexEnd{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+// elements
+@mixin borderRaduis{
+    border-radius: 4px;
+}
+
